@@ -1,0 +1,32 @@
+## 🟢 logic-fixer-sample — Debugging Example
+
+### 📘 Description
+
+Example of identifying and fixing issues in async code.
+
+### 🚀 Features
+
+- Shows difference between `var` and `let` in loops
+- Explains timing issues in asynchronous code
+- Quick and educational
+
+### ⚙️ Tech Stack
+
+Node.js (Vanilla JS)
+
+### ▶️ Run Locally
+
+```bash
+git clone https://github.com/<yourusername>/logic-fixer-sample.git
+cd logic-fixer-sample
+node buggy.js
+node fixed.js
+```
+
+### 📂 Project Structure
+
+```
+logic-fixer-sample/
+├─ buggy.js
+└─ fixed.js
+```
