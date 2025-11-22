@@ -30,3 +30,9 @@ logic-fixer-sample/
 ├─ buggy.js
 └─ fixed.js
 ```
+
+### 📺 Output Comparison
+
+| buggy.js | fixed.js |
+|---|---|
+| `var i: 5`<br>`var i: 5`<br>`var i: 5`<br>`var i: 5`<br>`var i: 5` | `let i: 0`<br>`let i: 1`<br>`let i: 2`<br>`let i: 3`<br>`let i: 4` |
